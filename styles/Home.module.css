@@ -45,6 +45,7 @@
   border-radius: 50%;
   cursor: pointer;
   outline: none;
+  background: #fff;
   /* padding: 2rem; */
 }
 .sortText {

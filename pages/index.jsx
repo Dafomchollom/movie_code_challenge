@@ -87,6 +87,7 @@ export default function Home() {
         <div className={styles.headerWrapper}>
           <h1 className={styles.header}>Top Rated Movies</h1>
           <div>
+            <span className={styles.sortText}>Sort</span>
             <button className={styles.sortBtn} onClick={() => sortHandler()}>
               <img src="/images/sortIcon.svg" alt="" />
             </button>

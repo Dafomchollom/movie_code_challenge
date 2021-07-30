@@ -64,16 +64,6 @@ const MovieCardComponent = ({ details }) => {
             <b>Released: </b>
             {dateHandler(details?.release_date)}
           </p>
-          {/* <div className={styles.detailsRating}>
-            <span className={styles.subInfo}>
-              <b>Ratings: </b>
-              {details?.vote_average}
-            </span>
-            <span className={styles.subInfo}>
-              <b>Released: </b>
-              {dateHandler(details?.release_date)}
-            </span>
-          </div> */}
         </div>
       </div>
       <button

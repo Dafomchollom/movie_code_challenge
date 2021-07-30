@@ -24,8 +24,9 @@
 .title {
   color: #fff;
   margin: 0 0 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
+  font-weight: bold;
 }
 .detailsRating {
   color: #9c8c8d;
@@ -62,10 +63,14 @@
 .subInfo {
   color: #f8f8f8;
   margin: 3px 0px;
+  font-size: 1rem;
 }
 @media (max-width: 700px) {
   .title {
     font-size: 2rem;
+  }
+  .subInfo {
+    font-size: 1.5rem;
   }
   .startBtn {
     top: -2%;

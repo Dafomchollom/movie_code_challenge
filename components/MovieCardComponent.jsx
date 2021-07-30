@@ -43,6 +43,9 @@ const MovieCardComponent = ({ details }) => {
             query: { movie: details.id },
           });
         }}
+        style={{
+          cursor: 'pointer',
+        }}
       >
         <div className={styles.imageWrapper}>
           <img

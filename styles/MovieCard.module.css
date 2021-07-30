@@ -67,4 +67,11 @@
   .title {
     font-size: 2rem;
   }
+  .startBtn {
+    top: -2%;
+    right: -3%;
+    height: 4rem;
+    width: 4rem;
+    /* padding: 10px; */
+  }
 }

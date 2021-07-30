@@ -31,6 +31,7 @@
   align-items: center;
   border-bottom: 5px solid #e4e4e4;
   margin-bottom: 1.5rem;
+  padding: 0px 20px;
 }
 .header {
   font-size: 3rem;

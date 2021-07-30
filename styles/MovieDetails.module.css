@@ -44,7 +44,7 @@
 }
 @media (max-width: 1080px) {
   .details_wrapper {
-    padding: 0 2rem;
+    padding: 5rem 2rem;
   }
   .col {
     width: 50%;

@@ -34,7 +34,7 @@
   justify-content: space-between;
 }
 .imageWrapper {
-  height: 20rem;
+  /* height: 20rem; */
 }
 .img {
   width: 100%;

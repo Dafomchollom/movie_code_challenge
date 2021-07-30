@@ -37,7 +37,7 @@ const MovieList = ({}) => {
   }, []);
   return (
     <div
-      className={styles.details_wrapper}
+      className={styles.detailsWrapper}
       style={{
         backgroundImage: `url(http://image.tmdb.org/t/p/w185${movieState?.backdrop_path})`,
       }}

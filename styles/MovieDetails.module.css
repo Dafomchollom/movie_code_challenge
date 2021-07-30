@@ -1,4 +1,4 @@
-.details_wrapper {
+.detailsWrapper {
   width: 100%;
   height: 100vh;
   background: #000000;
@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 @media (max-width: 1080px) {
-  .details_wrapper {
+  .detailsWrapper {
     padding: 5rem 2rem;
   }
   .col {

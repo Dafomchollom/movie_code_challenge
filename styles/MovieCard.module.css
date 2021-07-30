@@ -67,16 +67,16 @@
 }
 @media (max-width: 700px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
   .subInfo {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .startBtn {
-    top: -2%;
-    right: -3%;
-    height: 5rem;
-    width: 5rem;
+    top: -3%;
+    right: -5%;
+    height: 3.5rem;
+    width: 3.5rem;
     /* padding: 10px; */
   }
 }

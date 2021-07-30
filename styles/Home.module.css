@@ -54,8 +54,8 @@
   font-size: 1.5rem;
 }
 .sortIcon {
-  width: 70%;
-  height: 70px;
+  width: 50%;
+  height: 50px;
 }
 @media (max-width: 600px) {
   .grid {
@@ -63,22 +63,22 @@
     flex-direction: column;
   }
   .column {
-    width: 50%;
+    width: 100%;
   }
   .sortBtn {
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
   }
   .sortText {
     font-size: 2rem;
   }
   .header {
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 600px) {
   .column {
-    width: 33%;
+    width: 50%;
   }
 }
 @media (min-width: 900px) {

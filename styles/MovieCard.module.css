@@ -1,0 +1,69 @@
+.movieCardWrapper {
+  position: relative;
+  border-radius: 10px;
+  transition: all 0.5s;
+  box-shadow: 1px 1px 40px -9px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 1px 1px 40px -9px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 1px 1px 40px -9px rgba(0, 0, 0, 0.29);
+}
+.background {
+  background: #361d1c;
+}
+.backgroundActive {
+  background: #c92f00;
+}
+.movieCardWrapper:hover {
+  transform: scale(1.03);
+}
+.detailsWrapper {
+  /* background: #361d1c; */
+  position: relative;
+  padding: 1rem 1rem;
+  min-height: 10rem;
+}
+.title {
+  color: #fff;
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.detailsRating {
+  color: #9c8c8d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imageWrapper {
+  height: 20rem;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.startBtn {
+  border-radius: 50%;
+  padding: 10px;
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  border: none;
+  top: -3%;
+  right: -5%;
+  /* left: ; */
+  /* right: 40%; */
+  cursor: pointer;
+}
+.startBtnImg {
+  height: 100%;
+  width: 100%;
+}
+.subInfo {
+  color: #f8f8f8;
+  margin: 3px 0px;
+}
+@media (max-width: 700px) {
+  .title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,62 @@
+.details_wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #000000;
+  padding: 1rem 5rem;
+  background-size: cover;
+  background-position: fixed;
+  overflow-y: scroll;
+}
+.posterImage {
+  width: 85%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.posterImageWrapper {
+  width: 40%;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bodyWrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.description {
+  text-align: left;
+  width: 50%;
+}
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 1080px) {
+  .details_wrapper {
+    padding: 0 2rem;
+  }
+  .col {
+    width: 50%;
+  }
+  .posterImageWrapper,
+  .description {
+    width: 100%;
+  }
+  .posterImageWrapper {
+    text-align: center;
+  }
+  .posterImage {
+    width: 50%;
+  }
+}

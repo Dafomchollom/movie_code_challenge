@@ -51,8 +51,12 @@
 .sortText {
   color: #fff;
   margin: 0px 1rem;
+  font-size: 1.5rem;
 }
-
+.sortIcon {
+  width: 70%;
+  height: 70px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -60,6 +64,16 @@
   }
   .column {
     width: 50%;
+  }
+  .sortBtn {
+    width: 5rem;
+    height: 5rem;
+  }
+  .sortText {
+    font-size: 2rem;
+  }
+  .header {
+    font-size: 4rem;
   }
 }
 @media (min-width: 600px) {
